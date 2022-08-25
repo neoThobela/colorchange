@@ -1,0 +1,16 @@
+body{
+    height:100vh;
+    transition: all 3s;
+}
+.heading{
+    position: relative;
+    top:50%;
+    /* left:40%; */
+    animation: heading 3s  1s ;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes heading {
+    from {left:0%}
+    to {left:40%}
+} 
